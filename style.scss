@@ -1,0 +1,42 @@
+$bg: rgb(10, 18, 46);
+
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Secular One", sans-serif;
+  color: white;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $bg;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  #main {
+    font-size: 5rem;
+  }
+
+  #timer {
+    font-size: 4.5rem;
+  }
+
+  button {
+    color: $bg;
+    font-size: 4.5rem;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid rgb(7, 12, 32);
+    border-radius: 20px;
+  }
+
+  button:disabled,
+  button[disabled] {
+    background-color: rgb(102, 99, 99);
+    color: rgb(7, 12, 32);
+  }
+}

@@ -1,0 +1,50 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Secular One", sans-serif;
+  color: white;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #0a122e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #main {
+  font-size: 5rem;
+}
+
+body #timer {
+  font-size: 4.5rem;
+}
+
+body button {
+  color: #0a122e;
+  font-size: 4.5rem;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #070c20;
+  border-radius: 20px;
+}
+
+body button:disabled,
+body button[disabled] {
+  background-color: #666363;
+  color: #070c20;
+}
+/*# sourceMappingURL=style.css.map */
